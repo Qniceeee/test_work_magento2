@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Houston_Price::price" title="Price Requests"
+             module="Houston_Price"
+             sortOrder="51"
+             resource="Houston_Price::price"
+             parent="Magento_Customer::customer"
+             action="price_requests/index/index"/>
+    </menu>
+</config>
